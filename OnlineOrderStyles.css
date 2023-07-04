@@ -1,0 +1,230 @@
+.online-order {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1000;
+}
+.online-order .main-menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.online-order .main-menu .quick-menu {
+  width: 30%;
+  height: 50vh;
+  padding: 8px;
+  position: sticky;
+  top: 24%;
+  z-index: -1;
+}
+.online-order .main-menu .quick-menu h1 {
+  font-size: 0.9rem;
+}
+.online-order .main-menu .quick-menu .card {
+  text-transform: capitalize;
+  align-items: start;
+  margin-top: 0.2rem;
+  border: none;
+}
+.online-order .main-menu .quick-menu .card h6 {
+  word-spacing: 1px;
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  text-align: start;
+  font-size: 0.6rem;
+}
+.online-order .main-menu .menu-items {
+  width: 75%;
+  height: auto;
+  padding: 8px;
+}
+.online-order .main-menu .menu-items .cards {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.online-order .main-menu .menu-items .cards .item-card {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgb(216, 213, 213);
+  box-shadow: 4px 4px 10px rgb(200, 194, 194);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 0px;
+  margin: 0rem;
+}
+.online-order .main-menu .menu-items .cards .item-card .image {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.online-order .main-menu .menu-items .cards .item-card .image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+}
+.online-order .main-menu .menu-items .cards .item-card .image img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter {
+  width: 100%;
+  padding-left: 10px;
+  padding: 0.1rem;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter h1 {
+  font-size: 0.7rem;
+  height: 17px;
+  display: flex;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter .tags {
+  display: none;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter h3 {
+  font-size: 0.8rem;
+  width: 100;
+  text-align: start;
+  margin-top: 1rem;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter p {
+  font-size: 0.7rem;
+  width: 100%;
+  height: 18px;
+  overflow: hidden;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter .addtocart {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter .addtocart i {
+  font-size: 0.6rem;
+  background-color: peru;
+  padding: 7px;
+  margin: 0;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter .addtocart label {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  height: 100%;
+  padding: 2px;
+  border: 1px solid peru;
+}
+.online-order .main-menu .menu-items .cards .item-card .matter:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+@media screen and (max-width: 550px) {
+  .online-order {
+    width: 100%;
+  }
+  .online-order .main-menu .quick-menu {
+    display: none;
+  }
+  .online-order .main-menu .menu-items {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .online-order .main-menu .menu-items .cards {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .online-order .main-menu .menu-items .cards .item-card {
+    width: 98.5%;
+    height: 130px;
+    border: 1px solid rgb(216, 213, 213);
+    box-shadow: 4px 4px 10px rgb(200, 194, 194);
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0px;
+    margin-bottom: 0.6rem;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .image {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .image img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter {
+    width: 100%;
+    padding-left: 10px;
+    padding: 0.3rem;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter h1 {
+    font-size: 0.9rem;
+    height: 17px;
+    display: flex;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter .tags {
+    display: none;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter h3 {
+    font-size: 0.8rem;
+    width: 100;
+    text-align: start;
+    margin-top: 1rem;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter p {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 18px;
+    overflow: hidden;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter .addtocart {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter .addtocart i {
+    font-size: 0.6rem;
+    background-color: peru;
+    padding: 7px;
+    margin: 0;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter .addtocart label {
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    height: 100%;
+    padding: 2px;
+    border: 1px solid peru;
+  }
+  .online-order .main-menu .menu-items .cards .item-card .matter:hover {
+    background-color: rgb(230, 228, 228);
+  }
+}/*# sourceMappingURL=OnlineOrderStyles.css.map */

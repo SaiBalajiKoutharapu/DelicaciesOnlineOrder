@@ -1,0 +1,402 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+.login-page .login-box {
+  width: 57%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 6rem;
+  overflow: hidden;
+}
+.login-page .login-box .right-side {
+  width: 48%;
+  height: 100%;
+  cursor: pointer;
+}
+.login-page .login-box .right-side .image {
+  width: 100%;
+  height: 100%;
+}
+.login-page .login-box .right-side .image img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+}
+.login-page .login-box .right-side .matter {
+  position: relative;
+  top: -90%;
+  color: white;
+}
+.login-page .login-box .right-side .matter h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.login-page .login-box .right-side .matter h4 {
+  font-size: 2.5rem;
+}
+.login-page .login-box .right-side .matter p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
+.login-page .login-box .left-side {
+  width: 52%;
+  height: 100%;
+  background: linear-gradient(rgba(141, 139, 139, 0.4), rgba(98, 97, 97, 0.5), rgba(36, 36, 36, 0.5));
+}
+.login-page .login-box .left-side .tabs-block {
+  width: 49%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0;
+  position: absolute;
+  top: 3%;
+}
+.login-page .login-box .left-side .tabs-block .tabs {
+  width: 18%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  padding-bottom: 3px;
+  box-shadow: 2px 2px 10px rgb(11, 11, 11);
+  background-color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.login-page .login-box .left-side .tabs-block .active-tabs {
+  background-color: peru;
+}
+.login-page .login-box .left-side .data-required {
+  width: 100%;
+  height: 85%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-page .login-box .left-side .data-required .head {
+  line-height: 0.5rem;
+  margin-top: 1rem;
+}
+.login-page .login-box .left-side .data-required .head label {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.login-page .login-box .left-side .data-required .head p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+}
+.login-page .login-box .left-side .data-required .login-form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+.login-page .login-box .left-side .data-required .login-form label {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 0.9rem;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+.login-page .login-box .left-side .data-required .login-form .enter {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+}
+.login-page .login-box .left-side .data-required .login-form .enter i {
+  font-size: 0.8rem;
+  position: relative;
+  left: 9px;
+  width: 0%;
+}
+.login-page .login-box .left-side .data-required .login-form .enter input {
+  width: 100%;
+  font-size: 0.8rem;
+  background: linear-gradient(rgba(185, 184, 184, 0.4), rgba(100, 98, 98, 0.2));
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 5px;
+  padding-left: 30px;
+  height: 32px;
+  margin: 0;
+}
+.login-page .login-box .left-side .data-required .inform {
+  width: 60%;
+}
+.login-page .login-box .left-side .data-required .inform h1 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  text-align: end;
+}
+.login-page .login-box .left-side .data-required .inform button {
+  width: 100%;
+  padding: 6px;
+  background-color: peru;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.login-page .login-box .left-side .data-required .inform button:hover {
+  background-color: rgb(211, 141, 71);
+}
+.login-page .login-box .left-side .data-required .inform p {
+  font-size: 0.8rem;
+  font-weight: 450;
+  word-spacing: 1px;
+}
+.login-page .login-box .left-side .data-required .inform a {
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.login-page .login-box .left-side .data-required .icons {
+  width: 40%;
+}
+.login-page .login-box .left-side .data-required .icons i {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.login-page .login-box .left-side .data-required .icons i:hover {
+  color: rgb(225, 19, 19);
+}
+.login-page .login-box .left-side .login-data {
+  display: none;
+}
+.login-page .login-box .left-side .show-login-data {
+  display: block;
+}
+.login-page .login-box .left-side .active .login-data {
+  background-color: peru;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .login-page .login-box {
+    width: 75%;
+    height: 70%;
+  }
+  .login-page .login-box .right-side .matter h3 {
+    font-size: 2rem;
+  }
+  .login-page .login-box .right-side .matter h4 {
+    font-size: 2.1rem;
+  }
+  .login-page .login-box .right-side .matter p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 3rem;
+  }
+  .login-page .login-box .left-side {
+    background: linear-gradient(rgba(203, 202, 202, 0.4), rgba(54, 53, 53, 0.2));
+  }
+  .login-page .login-box .left-side h1 {
+    font-size: 1.5rem;
+  }
+  .login-page .login-box .left-side .login-form {
+    margin-top: 2rem;
+  }
+  .login-page .login-box .left-side .login-form label {
+    font-size: 1rem;
+  }
+  .login-page .login-box .left-side .login-form i {
+    font-size: 0.8rem;
+  }
+  .login-page .login-box .left-side .login-form input {
+    font-size: 0.7rem;
+  }
+  .login-page .login-box .left-side .submit button {
+    width: 68%;
+  }
+  .login-page .login-box .left-side .login-link {
+    margin-top: 5.7rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .login-page {
+    height: 100vh;
+  }
+  .login-page .login-box {
+    width: 95%;
+    height: 70%;
+    border-radius: 5px;
+    margin-top: 3rem;
+    background-color: white;
+  }
+  .login-page .login-box .right-side {
+    display: none;
+  }
+  .login-page .login-box .right-side .matter {
+    display: none;
+  }
+  .login-page .login-box .left-side {
+    width: 100%;
+    height: 100%;
+  }
+  .login-page .login-box .left-side .tabs-block {
+    width: 100%;
+    height: 40px;
+    top: 1%;
+    right: 2%;
+  }
+  .login-page .login-box .left-side .data-required {
+    width: 100%;
+    height: 90%;
+    margin-top: 5rem;
+  }
+  .login-page .login-box .left-side .data-required .head {
+    line-height: 0.5rem;
+    margin-top: 1rem;
+  }
+  .login-page .login-box .left-side .data-required .head label {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .login-page .login-box .left-side .data-required .head p {
+    font-size: 1.1rem;
+  }
+  .login-page .login-box .left-side .data-required .login-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 1.5rem;
+  }
+  .login-page .login-box .left-side .data-required .login-form label {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0.9rem;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+  }
+  .login-page .login-box .left-side .data-required .login-form .enter {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+  }
+  .login-page .login-box .left-side .data-required .login-form .enter i {
+    font-size: 0.8rem;
+    position: relative;
+    left: 9px;
+    width: 0%;
+  }
+  .login-page .login-box .left-side .data-required .login-form .enter input {
+    width: 100%;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+    height: 35px;
+    margin: 0;
+  }
+  .login-page .login-box .left-side .data-required .inform {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .login-page .login-box .left-side .data-required .inform h1 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+    text-align: end;
+  }
+  .login-page .login-box .left-side .data-required .inform button {
+    width: 100%;
+    padding: 6px;
+    background-color: peru;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  .login-page .login-box .left-side .data-required .inform button:hover {
+    background-color: rgb(211, 141, 71);
+  }
+  .login-page .login-box .left-side .data-required .inform p {
+    font-size: 1rem;
+    font-weight: 450;
+    word-spacing: 1px;
+    margin-top: -2rem;
+    padding-top: 0;
+  }
+  .login-page .login-box .left-side .data-required .inform a {
+    text-transform: capitalize;
+    color: black;
+    text-shadow: none;
+  }
+  .login-page .login-box .left-side .data-required .icons {
+    width: 40%;
+  }
+  .login-page .login-box .left-side .data-required .icons i {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .login-page .login-box .left-side .data-required .icons i:hover {
+    color: rgb(225, 19, 19);
+  }
+  .login-page .login-box .left-side .login-data {
+    display: none;
+  }
+  .login-page .login-box .left-side .show-login-data {
+    display: block;
+  }
+  .login-page .login-box .left-side .active .login-data {
+    background-color: peru;
+    border: none;
+    outline: none;
+  }
+}/*# sourceMappingURL=LoginStyles.css.map */

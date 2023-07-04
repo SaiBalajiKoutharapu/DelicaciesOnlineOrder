@@ -1,0 +1,559 @@
+.add-restaurant {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-restaurant .top-head {
+  width: 100%;
+  height: 58vh;
+}
+.add-restaurant .top-head .image {
+  width: 100%;
+  height: 50vh;
+}
+.add-restaurant .top-head .image img {
+  width: 100%;
+  height: 60vh;
+  filter: brightness(40%);
+}
+.add-restaurant .top-head p {
+  color: white;
+  font-size: 2.2rem;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  word-spacing: 2px;
+}
+.add-restaurant .top-head label {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: 400;
+  word-spacing: 3px;
+  top: 32%;
+}
+.add-restaurant .top-head .add {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%);
+  color: white;
+}
+.add-restaurant .top-head .add button {
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: peru;
+}
+.add-restaurant .top-head .add span {
+  font-size: 1.2rem;
+  padding: 8px;
+  background-color: peru;
+  margin-left: 1rem;
+  border-radius: 8px;
+}
+.add-restaurant .documents-require {
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  margin-top: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-restaurant .documents-require h1 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 400;
+}
+.add-restaurant .documents-require p {
+  font-size: 1.1rem;
+}
+.add-restaurant .documents-require .documents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  border: 1px solid rgb(157, 155, 155);
+  box-shadow: 0px 0px 10px 2px rgb(154, 151, 151);
+  padding: 15px;
+  border-radius: 15px;
+}
+.add-restaurant .documents-require .documents .doc {
+  width: 40%;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0.6rem;
+  line-height: 1.5rem;
+}
+.add-restaurant .documents-require .documents .doc i {
+  font-size: 1.2rem;
+  color: rgb(11, 191, 11);
+  padding: 8px;
+}
+.add-restaurant .partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.add-restaurant .partner h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.add-restaurant .partner p {
+  font-size: 1.1rem;
+  padding: 19px;
+  line-height: 2rem;
+  padding-top: 0;
+}
+.add-restaurant .partner .commodities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 2rem;
+}
+.add-restaurant .partner .commodities .commodity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-restaurant .partner .commodities .commodity i {
+  font-size: 1.5rem;
+  color: peru;
+}
+.add-restaurant .works {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.add-restaurant .works p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.add-restaurant .works .process {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.add-restaurant .works .process .box {
+  width: 29%;
+}
+.add-restaurant .works .process .box img {
+  width: 70px;
+  height: 60px;
+}
+.add-restaurant .works .process .box h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.add-restaurant .works .process .box h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.add-restaurant .works .process .box p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.add-restaurant .cities {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.add-restaurant .cities .city {
+  margin-top: 1rem;
+  width: 100%;
+  padding-left: 15rem;
+}
+.add-restaurant .cities h1 {
+  font-size: 2.2rem;
+}
+.add-restaurant .cities ul {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.add-restaurant .cities ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  left: 0;
+  width: 50%;
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  align-items: center;
+  color: black;
+}
+.add-restaurant .cities ul li h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+}
+.add-restaurant .cities ul li .link {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1000px) {
+  .add-restaurant .top-head p {
+    font-size: 1.7rem;
+  }
+  .add-restaurant .top-head label {
+    font-size: 1.1rem;
+  }
+  .add-restaurant .top-head .add button {
+    font-size: 0.8rem;
+    padding: 7px;
+  }
+  .add-restaurant .top-head .add span {
+    font-size: 0.8rem;
+    padding: 7px;
+  }
+  .add-restaurant .documents-require {
+    width: 60%;
+  }
+  .add-restaurant .documents-require h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .add-restaurant .documents-require p {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  .add-restaurant .documents-require .documents {
+    width: 100%;
+  }
+  .add-restaurant .documents-require .documents .doc {
+    width: 50%;
+  }
+  .add-restaurant .documents-require .documents .doc i {
+    font-size: 1rem;
+  }
+  .add-restaurant .documents-require .documents .doc p {
+    font-size: 0.9rem;
+  }
+  .add-restaurant .partner {
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+  .add-restaurant .partner h2 {
+    font-size: 1.7rem;
+  }
+  .add-restaurant .partner p {
+    font-size: 1rem;
+    padding: 10px;
+    width: 80%;
+    margin-top: 0;
+  }
+  .add-restaurant .partner .commodities {
+    margin: 0rem 0rem;
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .add-restaurant .partner .commodities .commodity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-restaurant .partner .commodities .commodity i {
+    font-size: 1.3rem;
+    color: peru;
+  }
+  .add-restaurant .works {
+    margin-top: 1rem;
+  }
+  .add-restaurant .works p {
+    font-size: 1.7rem;
+  }
+  .add-restaurant .works .process {
+    padding: 2rem;
+    margin-bottom: -4rem;
+  }
+  .add-restaurant .works .process .box {
+    width: 29%;
+  }
+  .add-restaurant .works .process .box img {
+    width: 50px;
+    height: 40px;
+  }
+  .add-restaurant .works .process .box h1 {
+    font-size: 0.9rem;
+  }
+  .add-restaurant .works .process .box h2 {
+    font-size: 1.1rem;
+  }
+  .add-restaurant .works .process .box p {
+    font-size: 0.8rem;
+  }
+  .add-restaurant .cities {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .add-restaurant .cities .city {
+    margin-top: 1rem;
+    width: 100%;
+    padding-left: 5rem;
+  }
+  .add-restaurant .cities h1 {
+    font-size: 1.3rem;
+  }
+  .add-restaurant .cities ul {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .add-restaurant .cities ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    left: 0;
+    width: 50%;
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+    color: black;
+  }
+  .add-restaurant .cities ul li h5 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: flex;
+  }
+  .add-restaurant .cities ul li .link {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    text-transform: capitalize;
+  }
+}
+@media screen and (max-width: 550px) {
+  .add-restaurant .top-head {
+    width: 100%;
+    height: 60vh;
+  }
+  .add-restaurant .top-head .image {
+    width: 100%;
+    height: 40vh;
+  }
+  .add-restaurant .top-head .image img {
+    width: 100%;
+    height: 50vh;
+    filter: brightness(40%);
+  }
+  .add-restaurant .top-head p {
+    font-size: 1.2rem;
+    width: 90%;
+    margin-top: 3em;
+  }
+  .add-restaurant .top-head label {
+    font-size: 0.9rem;
+    color: rgb(201, 191, 191);
+    word-spacing: 2px;
+    top: 28%;
+    width: 90%;
+  }
+  .add-restaurant .top-head .add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .add-restaurant .top-head .add button {
+    font-size: 0.6rem;
+    padding: 3px;
+    border-radius: 3px;
+    width: 33%;
+  }
+  .add-restaurant .top-head .add span {
+    font-size: 0.6rem;
+    padding: 3px;
+    background-color: peru;
+    margin-left: 1rem;
+    border-radius: 3px;
+    width: 33%;
+  }
+  .add-restaurant .documents-require {
+    border-radius: 3px;
+    margin-top: -5.5rem;
+    width: 80%;
+  }
+  .add-restaurant .documents-require h1 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    font-weight: 500;
+  }
+  .add-restaurant .documents-require p {
+    font-size: 0.8rem;
+  }
+  .add-restaurant .documents-require .documents {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .add-restaurant .documents-require .documents .doc {
+    width: 48%;
+    line-height: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .add-restaurant .documents-require .documents .doc p {
+    font-size: 0.7rem;
+    margin-top: 10px;
+  }
+  .add-restaurant .documents-require .documents .doc i {
+    font-size: 0.8rem;
+    color: rgb(11, 191, 11);
+  }
+  .add-restaurant .partner {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .add-restaurant .partner h2 {
+    font-size: 1.3rem;
+  }
+  .add-restaurant .partner p {
+    font-size: 0.8rem;
+    padding: 10px;
+    line-height: 1.3rem;
+    width: 90%;
+  }
+  .add-restaurant .partner .commodities {
+    margin: 0rem 1rem;
+    margin-bottom: 0;
+  }
+  .add-restaurant .partner .commodities .commodity p {
+    font-size: 0.7rem;
+  }
+  .add-restaurant .partner .commodities .commodity i {
+    font-size: 1rem;
+    color: peru;
+  }
+  .add-restaurant .works {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  .add-restaurant .works p {
+    font-size: 1.3rem;
+  }
+  .add-restaurant .works .process {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .add-restaurant .works .process .box {
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgb(104, 100, 100);
+    padding: 10px;
+  }
+  .add-restaurant .works .process .box img {
+    width: 40px;
+    height: 30px;
+  }
+  .add-restaurant .works .process .box h1 {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  .add-restaurant .works .process .box h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .add-restaurant .works .process .box p {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+  .add-restaurant .cities {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .add-restaurant .cities .city {
+    margin-top: 1rem;
+    width: 100%;
+    padding-left: 3.5rem;
+  }
+  .add-restaurant .cities h1 {
+    font-size: 1.3rem;
+  }
+  .add-restaurant .cities ul {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .add-restaurant .cities ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    left: 0;
+    width: 50%;
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    align-items: center;
+    color: black;
+  }
+  .add-restaurant .cities ul li h5 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: flex;
+  }
+  .add-restaurant .cities ul li .link {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    text-transform: capitalize;
+  }
+}/*# sourceMappingURL=Restaurantstyles.css.map */

@@ -1,0 +1,36 @@
+.swiper{
+    width:100%;
+    height:83vh;
+    left: 50%;
+    transform: translate(-50%);
+    .swiper-item{
+        width: 100%;
+        height:80vh;
+        .swiper-content{
+            background-color: rgb(33, 33, 33,0.6);
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            height: 30vh;
+            padding: 1.5rem;
+            h3{
+                color: white;
+                text-transform: capitalize;
+                font-weight: 400;
+                font-size: 2rem;
+            }
+            p{
+                // text-transform: capitalize;
+                color: rgb(191, 188, 188);
+                font-size: 1.2rem;
+            }
+            label{
+                padding: 0;
+                margin: 0;
+                font-size:1rem;
+                font-weight: 400;
+                color: rgb(198, 190, 190);
+            }
+        }
+    }
+}

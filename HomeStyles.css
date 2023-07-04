@@ -1,0 +1,198 @@
+.home-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page .image {
+  width: 100%;
+}
+.home-page .image img {
+  width: 100%;
+  height: 80vh;
+  filter: brightness(70%);
+}
+.home-page .heading {
+  position: absolute;
+  top: 30%;
+}
+.home-page .heading h2 {
+  font-size: 2rem;
+  color: rgb(147, 144, 144);
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.home-page .heading h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: white;
+}
+.home-page .content {
+  margin: 1rem 2rem;
+  width: 90%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page .content h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.home-page .content h1 span {
+  color: red;
+}
+.home-page .content .boxes {
+  width: 85%;
+}
+.home-page .content .boxes ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-page .content .boxes ul li {
+  list-style-type: none;
+  border: 1px solid rgb(228, 225, 225);
+  box-shadow: 2px 2px 10px rgb(172, 170, 170);
+  border-radius: 10px;
+  margin: 1rem;
+  width: 29%;
+  color: black;
+  background: linear-gradient(rgba(237, 236, 236, 0.5), rgba(184, 182, 182, 0.5));
+}
+.home-page .content .boxes ul li .link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0;
+}
+.home-page .content .boxes ul li .link p {
+  display: flex;
+  margin-top: 0.9rem;
+  text-transform: capitalize;
+  color: rgb(101, 100, 100);
+}
+.home-page .content .boxes ul li .link p h5 {
+  font-size: 1rem;
+  display: flex;
+  margin-top: 0.15rem;
+  color: rgb(101, 100, 100);
+  font-weight: 400;
+  padding-left: 6px;
+}
+.home-page .content .boxes ul li .link ion-icon {
+  font-size: 1.1rem;
+  color: rgb(101, 100, 100);
+}
+.home-page .content .boxes ul li:hover {
+  background: linear-gradient(rgba(250, 248, 248, 0.5), rgba(156, 154, 154, 0.5));
+  transform: scale(1.01);
+}
+.home-page .works {
+  width: 80%;
+}
+
+@media screen and (max-width: 850px) {
+  .boxes .link {
+    font-size: 0.7rem;
+  }
+  .boxes .link p {
+    font-size: 0.1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .home-page .image {
+    width: 100%;
+  }
+  .home-page .image img {
+    height: 60vh;
+    filter: brightness(70%);
+  }
+  .home-page .heading {
+    position: absolute;
+    top: 27%;
+  }
+  .home-page .heading h2 {
+    font-size: 1.3rem;
+    color: rgb(234, 231, 231);
+    font-weight: 400;
+  }
+  .home-page .heading h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: rgb(240, 234, 234);
+    font-weight: 450;
+  }
+  .home-page .content {
+    margin: 1.5rem 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .home-page .content h1 {
+    font-size: 1.5rem;
+  }
+  .home-page .content .boxes {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .home-page .content .boxes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+  }
+  .home-page .content .boxes ul li {
+    box-shadow: 2px 2px 10px rgb(102, 100, 100);
+    width: 75%;
+    margin: 0.5rem;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .home-page .content .boxes ul li .link {
+    width: 95%;
+  }
+  .home-page .content .boxes ul li .link p {
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+  }
+  .home-page .content .boxes ul li .link p h5 {
+    font-size: 1rem;
+    padding-left: 3%;
+  }
+  .home-page .content .boxes ul li .link ion-icon {
+    font-size: 1rem;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .home-page .content .boxes ul li:hover {
+    background: linear-gradient(rgba(250, 248, 248, 0.5), rgba(156, 154, 154, 0.5));
+    transform: scale(1.01);
+  }
+  .home-page .works {
+    width: 80%;
+  }
+}/*# sourceMappingURL=HomeStyles.css.map */

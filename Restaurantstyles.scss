@@ -1,0 +1,662 @@
+$primary-color:rgb(206, 43, 43);
+$secondary-color:white;
+$main-color:peru;
+
+.add-restaurant{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ .top-head{
+    width:100%;
+    height:58vh;
+
+    .image{
+        width:100%;
+        height:50vh;
+        img{
+            width:100%;
+            height:60vh;
+            filter: brightness(40%);
+        }
+    }
+
+    p{
+        color:$secondary-color;
+        font-size: 2.2rem;
+        position: absolute;
+        top:10%;
+        left:50%;
+        transform: translate(-50%);
+        word-spacing: 2px;
+    }
+
+    label{
+        font-size: 1.5rem;
+        color:$secondary-color;
+        position: absolute;
+        left:50%;
+        transform: translate(-50%);
+        font-weight: 400;
+        word-spacing: 3px;
+        top:32%;
+    }
+    .add{
+        display: flex;
+        position: absolute;
+        left:50%;
+        top:46%;
+        transform: translate(-50%);
+        color:white;
+
+        button{
+            font-size: 1.2rem;
+            padding: 8px;
+            border-radius: 8px;
+            color:$secondary-color;
+            outline: none;
+            border:none;
+            background-color:$main-color;
+        }
+        span{
+            font-size: 1.2rem;
+            padding: 8px;
+            background-color: $main-color;
+            margin-left: 1rem;
+            border-radius: 8px;
+        }
+        
+    }
+ }
+
+ .documents-require{
+    border-radius: 10px;
+    width:100%;
+    background-color: $secondary-color;
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid black;
+
+    h1{
+        font-size: 2rem;
+        padding-top: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-weight: 400;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .documents{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:45%;
+        border: 1px solid rgb(157, 155, 155);
+        box-shadow: 0px 0px  10px 2px  rgb(154, 151, 151);
+        padding: 15px;
+        border-radius: 15px;
+        .doc{
+            width:40%;
+            white-space: nowrap;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            line-height: .6rem;
+            line-height: 1.5rem;
+            i{
+                font-size: 1.2rem;
+                color:rgb(11, 191, 11);
+                padding: 8px;
+            }
+        }
+    }
+    
+ }
+
+ .partner{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    // border: 2px solid black;
+    h2{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    p{
+        font-size: 1.1rem;
+        padding: 19px;
+        line-height: 2rem;
+        padding-top: 0;
+    }
+
+    .commodities{
+        display: flex;
+        // border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0rem 2rem;
+        .commodity{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+                font-size: 1.5rem;
+                color:peru;
+            }
+            
+        }
+        
+    }
+ }
+
+  .works{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    
+    p{
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .process{
+        width:70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem;
+        .box{
+            width:29%;
+            img{
+                width:70px;
+                height:60px;
+            }
+
+            h1{
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+
+            h2{
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+    }
+  }
+
+  .cities{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .city{
+        margin-top: 1rem;
+        width: 100%;
+        padding-left:15rem;
+    }
+
+    h1{
+        font-size: 2.2rem;
+        
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            list-style-type: none;
+            font-size: 1.5rem;
+            left: 0;
+            width: 50%;
+            display: flex;
+            width: 50%;
+            justify-content: flex-start;
+            padding: 0;
+            margin: 0;
+            height: 50px;
+            align-items: center;
+            color: black;
+         
+            h5{
+                font-size: .9rem;
+                font-weight: 400;
+                display: flex;
+                
+            }
+            .link{
+                text-decoration: none;
+                display: flex;
+                color: black;
+                text-transform: capitalize;
+
+            }
+        }
+    }
+  }
+
+
+}
+
+
+
+@media screen and (max-width:1000px){
+
+
+.add-restaurant{
+ .top-head{
+
+    p{
+        font-size: 1.7rem;
+    }
+
+    label{
+        font-size: 1.1rem;
+    }
+    .add{
+        button{
+            font-size: .8rem;
+            padding: 7px;
+        }
+        span{
+            font-size: .8rem;
+            padding: 7px;
+        }
+        
+    }
+ }
+
+ .documents-require{
+    width:60%;
+    h1{
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    p{
+        font-size: .9rem;
+        padding: 5px;
+    }
+    .documents{
+        width:100%;
+        .doc{
+            width:50%;
+            i{
+                font-size: 1rem;
+            }
+            p{
+                font-size: .9rem;
+            }
+        }
+    }
+    
+ }
+
+ .partner{
+    margin-top: 4rem;
+    margin-bottom: 0;
+    
+    h2{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1rem;
+        padding: 10px;
+        width:80%;
+        margin-top: 0;
+    }
+
+    .commodities{
+        margin: 0rem 0rem;
+        width:80%;
+        margin-bottom: 0;
+        .commodity{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+                font-size: 1.3rem;
+                color:peru;
+            }
+            
+        }
+        
+    }
+ }
+
+  .works{
+    margin-top: 1rem;
+    p{
+        font-size: 1.7rem;
+    }
+    .process{
+        padding: 2rem;
+        margin-bottom: -4rem;
+        .box{
+            width:29%;
+            img{
+                width:50px;
+                height:40px;
+            }
+
+            h1{
+                font-size: .9rem;
+            }
+
+            h2{
+                font-size: 1.1rem;
+            }
+
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+  }
+  .cities{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .city{
+        margin-top: 1rem;
+        width: 100%;
+        padding-left: 5rem;
+    }
+
+    h1{
+        font-size: 1.3rem;
+        
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            list-style-type: none;
+            font-size: .9rem;
+            left: 0;
+            width: 50%;
+            display: flex;
+            width: 50%;
+            justify-content: flex-start;
+            padding: 0;
+            margin: 0;
+            height: 30px;
+            align-items: center;
+            color: black;
+         
+            h5{
+                font-size: .9rem;
+                font-weight: 400;
+                display: flex;
+                
+            }
+            .link{
+                text-decoration: none;
+                display: flex;
+                color: black;
+                text-transform: capitalize;
+
+            }
+        }
+    }
+  }
+
+
+}
+
+
+
+}
+
+@media screen and (max-width:550px){
+.add-restaurant{
+ .top-head{
+    width:100%;
+    height:60vh;
+    .image{
+        width:100%;
+        height:40vh;
+        img{
+            width:100%;
+            height:50vh;
+            filter: brightness(40%);
+        }
+    }
+    p{
+        font-size: 1.2rem;
+        width: 90%;
+        margin-top: 3em;
+    }
+    label{
+        font-size: .9rem;
+        color: rgb(201, 191, 191);
+        word-spacing: 2px;
+        top:28%;
+        width: 90%;
+    }
+    .add{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top:42%;
+        left: 50%;
+        transform: translate(-50%);
+        button{
+            font-size: .6rem;
+            padding: 3px;
+            border-radius: 3px;
+            width: 33%;
+        }
+        span{
+            font-size: .6rem;
+            padding: 3px;
+            background-color: $main-color;
+            margin-left: 1rem;
+            border-radius: 3px;
+            width: 33%;
+        }
+        
+    }
+ }
+
+ .documents-require{
+    border-radius: 3px;
+    margin-top: -5.5rem;
+    width: 80%;
+    h1{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        font-weight: 500;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .documents{
+        padding: 5px;
+        border-radius: 5px;
+        .doc{
+            width:48%;
+            line-height: .3rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            p{
+                font-size: .7rem;
+                margin-top: 10px;
+            }
+            i{
+                font-size: .8rem;
+                color:rgb(11, 191, 11);
+                
+            }
+        }
+    }
+    
+ }
+
+ .partner{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    // border: 2px solid black;
+    h2{
+        font-size: 1.3rem;
+ 
+    }
+    p{
+        font-size: .8rem;
+        padding: 10px;
+        line-height: 1.3rem;
+        width: 90%;
+    }
+
+    .commodities{
+        margin: 0rem 1rem;
+        margin-bottom: 0;
+        .commodity{
+            p{
+                font-size: .7rem;
+            }
+
+            i{
+                font-size: 1rem;
+                color:peru;
+            }
+            
+        }
+        
+    }
+ }
+
+  .works{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    
+    p{
+        font-size: 1.3rem;
+    }
+
+    .process{
+        width:95%;
+        padding: 5px;
+        margin-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        .box{
+            width:70%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 7px rgb(104, 100, 100);
+            padding: 10px;
+            img{
+                width:40px;
+                height:30px;
+            }
+
+            h1{
+                font-size: .7rem;
+                font-weight: 400;
+            }
+
+            h2{
+                font-size: .8rem;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: .6rem;
+                font-weight: 400;
+            }
+        }
+    }
+  }
+
+  .cities{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .city{
+        margin-top: 1rem;
+        width: 100%;
+        padding-left: 3.5rem;
+    }
+
+    h1{
+        font-size: 1.3rem;
+        
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            list-style-type: none;
+            font-size: .9rem;
+            left: 0;
+            width: 50%;
+            display: flex;
+            width: 50%;
+            justify-content: flex-start;
+            padding: 0;
+            margin: 0;
+            height: 30px;
+            align-items: center;
+            color: black;
+         
+            h5{
+                font-size: .9rem;
+                font-weight: 400;
+                display: flex;
+                
+            }
+            .link{
+                text-decoration: none;
+                display: flex;
+                color: black;
+                text-transform: capitalize;
+
+            }
+        }
+    }
+  }
+
+
+}
+}

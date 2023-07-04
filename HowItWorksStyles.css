@@ -1,0 +1,55 @@
+.works {
+  width: 100%;
+  margin-top: 5%;
+}
+.works p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.works .process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: 0.1px solid rgb(147, 145, 145);
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgb(116, 114, 114);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 5px;
+  padding-top: 15px;
+  margin-bottom: 5%;
+}
+.works .process .box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0rem;
+  align-items: center;
+  justify-content: center;
+}
+.works .process .box .deliver {
+  width: 90px;
+  height: 85px;
+  position: relative;
+  top: 8%;
+}
+.works .process .box img {
+  width: 80px;
+  height: 80px;
+}
+.works .process .box h1 {
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin-top: 3rem;
+}
+.works .process .box h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.works .process .box p {
+  font-size: 1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=HowItWorksStyles.css.map */

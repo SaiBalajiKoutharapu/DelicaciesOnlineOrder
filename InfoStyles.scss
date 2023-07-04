@@ -1,0 +1,180 @@
+.info{
+    width:100%;
+    cursor: pointer;
+    background-color: rgb(230, 228, 228);
+    height:auto;
+
+    .info-data{
+        padding:1rem 4rem;
+        .headings{
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           h1{
+            font-size: 2.2rem;
+            text-transform: capitalize;
+            font-weight: 600;
+            color:rgb(181, 15, 15);
+           }
+            .general{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width:25%;
+    
+                p{
+                    padding: 5px;
+                    margin-left: 10px;
+                    text-transform: capitalize;
+                    border: .1px solid rgb(249, 249, 249);
+                    width:40%;
+                    background-color: rgb(255, 255, 255);
+                    border: 1px solid rgb(145, 144, 144);
+                    
+                }
+            }
+        }
+        .data{
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+            .about-zomato{
+                width:15%;
+                .head h2{
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    text-align: start;
+                }
+                .media{
+                    text-align: start;
+                    font-size: 1rem;
+                    text-transform: capitalize;
+                    font-weight:400;
+                    letter-spacing: .5px;
+                    line-height: 1rem;
+    
+                    p{
+                        line-height: 1rem;
+                        
+                        &:hover{
+                            color:rgb(183, 46, 46);
+                            
+                        }
+                    }
+                    
+                }
+                .icons{
+                    font-size: 1.4rem;
+                    text-align: start;
+                    i{
+                        padding: 5px;
+                        &:hover{
+                            color:rgb(198, 57, 57)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px){
+
+
+    .info{
+        margin-bottom: .7rem;
+        padding-bottom:0 ;
+        width:100%;
+        .headings{
+           h1{
+            font-size: 1.8rem;
+            font-weight: 550;  
+           }
+        }
+        .data{
+            .about-zomato{
+                width:20%;
+                .head h2{
+                    font-size: 1rem;
+                    font-weight: 500;
+                }
+                .media{
+                    font-size: .8rem;
+                    p{
+                        line-height: 1rem;
+                    }
+                    
+                }
+                .icons{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .info{
+        height: auto;
+        .info-data{
+            padding:1rem 1rem;
+            .headings{
+               h1{
+                font-size: 1.6rem;
+
+               }
+                .general{
+                    width:40%;
+                    margin-top: 1.5rem;
+                    p{
+                        padding: 2px;
+                        margin-left:5px;
+                        text-transform: capitalize;
+                        font-size:.8rem;
+                    }
+                }
+            }
+            .data{
+                width:100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .about-zomato{
+                    width:50%;
+                    .head h2{
+                        font-size: 1.1rem;
+                    }
+                    .media{
+                        text-align: start;
+                        font-size: .9rem;
+                        margin-top: 1rem;
+                        p{
+                            line-height: .8rem;
+                    }
+                    .icons{
+                        font-size: 1.4rem;
+                        text-align: start;
+                        i{
+                            padding: 5px;
+                            &:hover{
+                                color:rgb(198, 57, 57)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        padding: 1rem;
+        border-top: 1px solid rgb(128, 126, 126);
+        margin: .5rem;
+        p{
+            font-size: .7rem;
+        }
+    }
+  }
+}

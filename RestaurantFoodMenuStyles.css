@@ -1,0 +1,394 @@
+.restaurantMenu {
+  width: 100;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+  z-index: 9999;
+}
+.restaurantMenu .page-content {
+  width: 80%;
+  height: auto;
+}
+.restaurantMenu .page-content .top-head {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.restaurantMenu .page-content .top-head .image1 {
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border: none;
+}
+.restaurantMenu .page-content .top-head .image1 img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  filter: brightness(90%);
+}
+.restaurantMenu .page-content .top-head .image1 img:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease-in-out;
+}
+.restaurantMenu .page-content .top-head .images {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+.restaurantMenu .page-content .top-head .images .image {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+.restaurantMenu .page-content .top-head .images .image .all {
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 400;
+  top: 52%;
+  right: 15%;
+}
+.restaurantMenu .page-content .top-head .images .image .all i {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.restaurantMenu .page-content .top-head .images .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  transition: 0.3s ease-in-out;
+  filter: brightness(55%);
+  margin: 0;
+}
+.restaurantMenu .page-content .top-head .images .image img:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease-in-out;
+  filter: brightness(100%);
+}
+.restaurantMenu .page-content .top-head .images .image .no {
+  width: 100%;
+  height: 100%;
+}
+.restaurantMenu .page-content .top-head .images .image .no img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+.restaurantMenu .page-content .restaurant-details {
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  background-color: white;
+}
+.restaurantMenu .page-content .restaurant-details .address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.8rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .add {
+  width: 75%;
+}
+.restaurantMenu .page-content .restaurant-details .address .add h1 {
+  font-size: 2rem;
+  display: flex;
+  font-weight: 450;
+  color: rgb(31, 30, 30);
+  margin-top: 1rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .add p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .add label {
+  font-size: 0.9rem;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.restaurantMenu .page-content .restaurant-details .address .left {
+  width: 20%;
+  padding-top: 1rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .review {
+  display: flex;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .review i {
+  font-size: 1.3rem;
+  padding: 3px;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .review i:hover {
+  color: red;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .review label {
+  font-size: 1rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .review label i {
+  font-size: 0.9rem;
+  color: red;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .contact {
+  display: flex;
+  padding: 2px;
+  justify-content: end;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .contact i {
+  font-size: 1rem;
+  display: flex;
+}
+.restaurantMenu .page-content .restaurant-details .address .left .contact label {
+  display: flex;
+  font-size: 1rem;
+}
+.restaurantMenu .page-content .options .tabs-block {
+  width: 100%;
+  margin-top: 1rem;
+  position: sticky;
+  top: 17.5%;
+  background-color: white;
+}
+.restaurantMenu .page-content .options .tabs-block .tabs {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgb(164, 162, 162);
+}
+.restaurantMenu .page-content .options .tabs-block .tabs .tab {
+  width: 20%;
+  height: 35px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+.restaurantMenu .page-content .options .tabs-block .tabs .tab:hover {
+  background-color: peru;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.restaurantMenu .page-content .options .tabs-block .tabs .active-tab {
+  background-color: peru;
+  color: white;
+  font-weight: 350;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+.restaurantMenu .page-content .options .content-block {
+  margin-top: 1rem;
+}
+.restaurantMenu .page-content .options .content-block .content {
+  display: none;
+}
+.restaurantMenu .page-content .options .content-block .active-content {
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .restaurantMenu .page-content {
+    width: 80%;
+    margin-top: 2.2rem;
+  }
+  .restaurantMenu .page-content .top-head {
+    height: 70vh;
+  }
+  .restaurantMenu .page-content .top-head .images {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  .restaurantMenu .page-content .top-head .images img {
+    width: 100%;
+  }
+  .restaurantMenu .page-content .options .tabs-block {
+    margin-top: 0.7rem;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs {
+    width: 60%;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs .tab {
+    height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .restaurantMenu .page-content {
+    width: 90%;
+    margin-top: 2.5rem;
+  }
+  .restaurantMenu .page-content .top-head {
+    height: 50vh;
+  }
+  .restaurantMenu .page-content .options .tabs-block {
+    margin-top: 0.5rem;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs {
+    width: 70%;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs .tab {
+    height: 23px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 610px) {
+  .restaurantMenu .page-content {
+    width: 90%;
+  }
+  .restaurantMenu .page-content .top-head {
+    height: 50vh;
+  }
+  .restaurantMenu .page-content .options .tabs-block {
+    margin-top: 0.8rem;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs {
+    width: 75%;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs .tab {
+    height: 20px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .restaurantMenu {
+    padding-top: 10%;
+  }
+  .restaurantMenu .page-content {
+    width: 95%;
+    height: auto;
+  }
+  .restaurantMenu .page-content .top-head {
+    width: 100%;
+    height: 30vh;
+  }
+  .restaurantMenu .page-content .top-head .image1 {
+    width: 70%;
+  }
+  .restaurantMenu .page-content .top-head .image1 img {
+    filter: brightness(100%);
+  }
+  .restaurantMenu .page-content .top-head .images .image img {
+    filter: brightness(90%);
+  }
+  .restaurantMenu .page-content .restaurant-details {
+    padding-top: 0;
+    position: sticky;
+    top: 5.5%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    background-color: white;
+  }
+  .restaurantMenu .page-content .restaurant-details .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0rem;
+    width: 98%;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .add {
+    width: 75%;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .add h1 {
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .add p {
+    font-size: 0.8rem;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .add label {
+    font-size: 0.7rem;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left {
+    width: 32%;
+    padding-top: 0rem;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .review {
+    display: flex;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .review i {
+    font-size: 0.7rem;
+    padding: 3px;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .review i:hover {
+    color: red;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .review label {
+    font-size: 0.7rem;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .review label i {
+    font-size: 0.5rem;
+    padding: 0;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .contact {
+    display: flex;
+    padding: 0px;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .contact i {
+    font-size: 0.7rem;
+    display: flex;
+  }
+  .restaurantMenu .page-content .restaurant-details .address .left .contact label {
+    display: flex;
+    font-size: 0.7rem;
+  }
+  .restaurantMenu .page-content .options .tabs-block {
+    width: 100%;
+    margin-top: 1rem;
+    position: sticky;
+    top: 18%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs {
+    width: 100%;
+  }
+  .restaurantMenu .page-content .options .tabs-block .tabs .tab {
+    width: 20%;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+  .restaurantMenu .page-content .options .content-block {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .restaurantMenu .page-content .options .content-block .content {
+    display: none;
+  }
+  .restaurantMenu .page-content .options .content-block .active-content {
+    display: block;
+  }
+}/*# sourceMappingURL=RestaurantFoodMenuStyles.css.map */

@@ -1,0 +1,161 @@
+.info {
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(230, 228, 228);
+  height: auto;
+}
+.info .info-data {
+  padding: 1rem 4rem;
+}
+.info .info-data .headings {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .info-data .headings h1 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(181, 15, 15);
+}
+.info .info-data .headings .general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+.info .info-data .headings .general p {
+  padding: 5px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  border: 0.1px solid rgb(249, 249, 249);
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(145, 144, 144);
+}
+.info .info-data .data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.info .info-data .data .about-zomato {
+  width: 15%;
+}
+.info .info-data .data .about-zomato .head h2 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: start;
+}
+.info .info-data .data .about-zomato .media {
+  text-align: start;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+}
+.info .info-data .data .about-zomato .media p {
+  line-height: 1rem;
+}
+.info .info-data .data .about-zomato .media p:hover {
+  color: rgb(183, 46, 46);
+}
+.info .info-data .data .about-zomato .icons {
+  font-size: 1.4rem;
+  text-align: start;
+}
+.info .info-data .data .about-zomato .icons i {
+  padding: 5px;
+}
+.info .info-data .data .about-zomato .icons i:hover {
+  color: rgb(198, 57, 57);
+}
+
+@media screen and (max-width: 900px) {
+  .info {
+    margin-bottom: 0.7rem;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .info .headings h1 {
+    font-size: 1.8rem;
+    font-weight: 550;
+  }
+  .info .data .about-zomato {
+    width: 20%;
+  }
+  .info .data .about-zomato .head h2 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .info .data .about-zomato .media {
+    font-size: 0.8rem;
+  }
+  .info .data .about-zomato .media p {
+    line-height: 1rem;
+  }
+  .info .data .about-zomato .icons {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .info {
+    height: auto;
+  }
+  .info .info-data {
+    padding: 1rem 1rem;
+  }
+  .info .info-data .headings h1 {
+    font-size: 1.6rem;
+  }
+  .info .info-data .headings .general {
+    width: 40%;
+    margin-top: 1.5rem;
+  }
+  .info .info-data .headings .general p {
+    padding: 2px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+  }
+  .info .info-data .data {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .info .info-data .data .about-zomato {
+    width: 50%;
+  }
+  .info .info-data .data .about-zomato .head h2 {
+    font-size: 1.1rem;
+  }
+  .info .info-data .data .about-zomato .media {
+    text-align: start;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  .info .info-data .data .about-zomato .media p {
+    line-height: 0.8rem;
+  }
+  .info .info-data .data .about-zomato .media .icons {
+    font-size: 1.4rem;
+    text-align: start;
+  }
+  .info .info-data .data .about-zomato .media .icons i {
+    padding: 5px;
+  }
+  .info .info-data .data .about-zomato .media .icons i:hover {
+    color: rgb(198, 57, 57);
+  }
+  .info .copyright {
+    padding: 1rem;
+    border-top: 1px solid rgb(128, 126, 126);
+    margin: 0.5rem;
+  }
+  .info .copyright p {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=InfoStyles.css.map */
